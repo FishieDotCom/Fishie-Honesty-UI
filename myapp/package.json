@@ -29,6 +29,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.51.5"
+		"@iconify/svelte": "^3.1.0",
+		"daisyui": "^2.51.5",
+		"react-icons": "^4.8.0"
 	}
 }
