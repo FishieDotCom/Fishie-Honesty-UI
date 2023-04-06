@@ -26,4 +26,7 @@
 1. make it responsive
 2. decide font
 3. work on padding and Margins
+4. this works
  -->
+
+<!-- Path: Fishie-Honesty-UI\src\routes\+page.svelte -->
