@@ -27,3 +27,5 @@
 2. decide font
 3. work on padding and Margins
  -->
+
+<!-- Path: Fishie-Honesty-UI\src\routes\+page.svelte -->
