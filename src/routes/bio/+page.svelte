@@ -41,6 +41,11 @@
     </div>
 </div>
 
+<div class="flex justify-center items-center">
+    <button class='btn btn-secondary'>
+        save
+    </button>
+</div>
     
 
 
