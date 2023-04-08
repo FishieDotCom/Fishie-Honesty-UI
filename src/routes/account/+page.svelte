@@ -15,10 +15,7 @@
 							<div />
 						</div>
 
-						<h1 class="mr-10">
-							@Username
-						</h1>
-
+						<h1 class="mr-10">@Username</h1>
 					</div>
 				</div>
 			</div>

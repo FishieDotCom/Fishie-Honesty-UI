@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+#########################
+    honestyui:
+      build:
+        context: ..
+        dockerfile: .build/Dockerfile
+      hostname: honestyui
+      image: git.shihaam.dev/dockerfiles/fishie-honestyui
