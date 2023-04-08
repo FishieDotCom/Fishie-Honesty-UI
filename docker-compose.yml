@@ -6,3 +6,16 @@ services:
       image: git.shihaam.dev/dockerfiles/fishie-honestyui
       ports:
         - 5173:5173
+      restart: always
+########################
+#    mongodb:
+#      container_name: mongodb
+#      image: mongo:latest
+#      environment:
+#        MONGO_INITDB_ROOT_USERNAME: root
+#        MONGO_INITDB_ROOT_PASSWORD: example
+#      ports:
+#        - 27017:27017
+#      volumes:
+#        - ./data:/data/db
+#      restart: always
