@@ -28,9 +28,9 @@
 
 	<div class="flex justify-center items-center flex-col mt-40">
         <p>anon</p>
-		<div className="form-control">
-            <label className="label cursor-pointer">
-              <input type="checkbox" checked className="checkbox" />
+		<div class="form-control">
+            <label class="label cursor-pointer">
+              <input type="checkbox" checked class="checkbox" />
             </label>
           </div>
 	</div>
