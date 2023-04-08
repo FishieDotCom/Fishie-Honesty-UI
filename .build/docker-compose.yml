@@ -6,4 +6,4 @@ services:
         context: ..
         dockerfile: .build/Dockerfile
       hostname: honestyui
-      image: honestyui
+      image: git.shihaam.dev/dockerfiles/Fishie-Honesty-UI
