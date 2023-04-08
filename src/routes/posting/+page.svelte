@@ -2,7 +2,7 @@
 </script>
 
 <section>
-	<div class="text-center">
+	<div class="text-center mt-10">
 		<h1 class="text-3xl font-bold">Honesty</h1>
         <p class="text-sm font-bold">by Fishie</p>
 	</div>
