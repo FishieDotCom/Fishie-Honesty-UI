@@ -3,28 +3,40 @@
 
 <section>
 	<div class="text-center">
-
-        <h1 class='text-3xl font-bold'>Honesty</h1>
+		<h1 class="text-3xl font-bold">Honesty</h1>
+        <p class="text-sm font-bold">by Fishie</p>
 	</div>
 
+	<div class='mt-40 mb-10'>
+		<div class="flex justify-center items-center">
+			<textarea
+				placeholder="Post contents here"
+				class="textarea textarea-bordered textarea-lg w-full max-w-xs shadow-md"
+			/>
+		</div>
+	</div>
 
-    <div class='border-black'>
-        <textarea name="cool" id="" cols="30" rows="10"></textarea>
-    </div>
+	<div class="flex justify-center items-center">
+		<div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          </div>
+	</div>
 
-    <div>
-        <!-- star rating thing here, probab;y first JS script thing i gotta write this project -->
-    </div>
-
-
-    <div>
-        <input type="checkbox">
-        <p>Anon</p>
-    </div>
-
-
-    <div class="btn btn-secondary">
-        <button>Submit</button>
-    </div>
-
+	<div class="flex justify-center items-center flex-col mt-40">
+        <p>anon</p>
+		<div className="form-control">
+            <label className="label cursor-pointer">
+              <input type="checkbox" checked className="checkbox" />
+            </label>
+          </div>
+	</div>
+    <div class="flex justify-center items-center my-10">
+	<div class="btn btn-secondary">
+		<button>Submit</button>
+	</div>
+</div>
 </section>
