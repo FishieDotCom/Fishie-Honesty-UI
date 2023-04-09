@@ -2,6 +2,7 @@
 
 </script>
 
+
 <section>
     <div class="text-center mt-5">
 		<h1 class="text-3xl font-bold">Honesty</h1>

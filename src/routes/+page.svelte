@@ -17,6 +17,7 @@
 		<div class="flex justify-center items-center">
 			<button class="btn btn-error">
 				<!-- <a href="">Login via Telegram</a> -->
+				Click here to login 
 				<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="Fishie_Honesty_bot" data-size="large" data-auth-url="/" data-request-access="write"></script>
 			</button>
 		</div>
