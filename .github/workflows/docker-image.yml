@@ -1,4 +1,4 @@
-name: Build and Push Docker Compose on Commit
+name: Build Docker Compose on Commit
 on:
   push:
     branches:
@@ -7,18 +7,10 @@ on:
     branches:
       - main
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Build Docker Compose
-        run: docker compose -f .build/docker-compose.yml build
-      - name: Login to Registry
-        uses: docker/login-action@v1
-        with:
-          registry: git.shihaam.dev
-          username: ${{ secrets.REGISTRY_USERNAME }}
-          password: ${{ secrets.REGISTRY_PASSWORD }}
-      - name: Push Docker Compose
-        run: docker compose -f .build/docker-compose.yml push
+        run: docker-compose -f .build/docker-compose.yml build
