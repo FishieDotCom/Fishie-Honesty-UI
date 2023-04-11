@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="text-center my-40">
 			<h1 class="text-3xl sm:text-4xl font-bold">Honesty</h1>
-			<sub class="text-sm">By Fishie</sub>
+			<sub class="text-sm">By SAR</sub>
 		</div>
 	</div>
 	<div class="p-10 sm:p-20" />
