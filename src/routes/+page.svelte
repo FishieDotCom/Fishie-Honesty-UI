@@ -1,6 +1,7 @@
 <script>
 	// import {Icon} from '@iconify/svelte';
 	// import {FaTelegramPlane} from 'svelte-icons/fa';
+	import {Login} from "sveltegram";
 </script>
 
 <section>
@@ -19,7 +20,12 @@
 				<a href="">Login via Telegram</a>
 				Click here to login
 			</button> -->
-			<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="Fishie_Honesty_bot" data-size="large" data-auth-url="/" data-request-access="write"></script>
+			<!-- <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="Fishie_Honesty_bot" data-size="large" data-auth-url="/" data-request-access="write"></script> -->
+			<Login
+				username="Fishie_Honesty_bot"
+				requestAccess=true
+				size="large"
+				/>
 		</div>
 	</footer>
 </section>
