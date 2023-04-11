@@ -1,3 +1,9 @@
+# Fishie Honesty
+
+![Logo](https://github.com/FishieDotCom/Fishie-Honesty-UI/blob/main/Img/Github%20Logo.png)
+
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
