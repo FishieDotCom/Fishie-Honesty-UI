@@ -3,8 +3,8 @@
 
 <section>
 	<div class="text-center mt-10">
-		<h1 class="text-3xl font-bold">Honesty</h1>
-		<p class="text-sm font-bold">by Fishie</p>
+		<h1 class="text-4xl font-bold font-signature">Honesty</h1>
+		<p class="text-sm font-bold font-signature">by Fishie</p>
 	</div>
 
 	<div class=" container flex justify-center items-center mt-20 mb-10">
