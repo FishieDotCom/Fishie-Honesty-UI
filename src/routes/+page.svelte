@@ -1,6 +1,7 @@
 <script>
-	// import {Icon} from '@iconify/svelte';
-	// import {FaTelegramPlane} from 'svelte-icons/fa';
+
+	
+
 </script>
 
 <section>
