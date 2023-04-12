@@ -1,18 +1,51 @@
-# create-svelte
+# Fishie Honesty
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![Logo](https://github.com/FishieDotCom/Fishie-Honesty-UI/blob/main/Img/Github%20Logo.png)
 
-## Creating a project
+### What is this
+the Frontend code for Fishie Honesty. a no AI and no algorithm based social media website where users can build a profile and post and socialize with others
 
-If you're seeing this, you've probably already done this step. Congrats!
+if you want to follow along with the devlog for this project check out [my youtube playlist](https://youtu.be/LLYBFS7LHvk).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Features
+- a dedicated page for users to be able to share all their socials (linktree clone)
+- Telegram based authentication (2fa built in and we dont store passwords)
+- users can post
+- users can like or dislike posts
+- user profile
+- claim username 
+- notification via telegram
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Roadmap
+*0 users*
+- build server
+- build web app
+- make dev logs
+- deploy server and web app
+
+*256 users*
+- add comments
+
+*1000+ users*
+- actually take the project seriously
+
+*5012 users*
+- android app
+- in app notification
+
+*10,000 users*
+- ios app
+- in app notification
+
+## Tech Stack
+**Server**
+- C# ASP.NET 
+- MongoDB
+
+**Web UI**
+- Svelte
+- Vite
+- Playwright
 
 ## Developing
 
@@ -23,17 +56,10 @@ npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
-```
 
-## Building
-
-To create a production version of your app:
-
-```bash
+# run prod build
 npm run build
+
+# preview the production build
+npm run preview
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-

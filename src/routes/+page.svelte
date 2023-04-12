@@ -1,14 +1,14 @@
 <script>
-
-	
-
+	// import {Icon} from '@iconify/svelte';
+	// import {FaTelegramPlane} from 'svelte-icons/fa';
+	import {Login} from "sveltegram";
 </script>
 
 <section>
 	<div class="container">
 		<div class="text-center my-40">
 			<h1 class="text-3xl sm:text-4xl font-bold">Honesty</h1>
-			<sub class="text-sm">By Fishie</sub>
+			<sub class="text-sm">By SAR</sub>
 		</div>
 	</div>
 	<div class="p-10 sm:p-20" />
@@ -16,11 +16,16 @@
 
 	<footer class="container mx-auto">
 		<div class="flex justify-center items-center">
-			<button class="btn btn-error">
-				<!-- <a href="">Login via Telegram</a> -->
-				Click here to login 
-				<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="Fishie_Honesty_bot" data-size="large" data-auth-url="/" data-request-access="write"></script>
-			</button>
+			<!-- <button class="btn btn-error">
+				<a href="">Login via Telegram</a>
+				Click here to login
+			</button> -->
+			<!-- <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-login="Fishie_Honesty_bot" data-size="large" data-auth-url="/" data-request-access="write"></script> -->
+			<Login
+				username="Fishie_Honesty_bot"
+				requestAccess=true
+				size="large"
+				/>
 		</div>
 	</footer>
 </section>
