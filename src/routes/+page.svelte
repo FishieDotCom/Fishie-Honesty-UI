@@ -4,10 +4,10 @@
 
 	// i know this is the solution, but i dont know why it no wooooork
 
-	import {Login} from "sveltegram";
-	import IframeLoader from "svelte-iframe-loader";
-	
-	const iframeSrc = "https://telegram.org/js/telegram-widget.js?22";
+	import { Login } from 'sveltegram';
+	// import IframeLoader from "svelte-iframe-loader";
+
+	// const iframeSrc = "https://telegram.org/js/telegram-widget.js?22";
 </script>
 
 <section>
@@ -20,29 +20,30 @@
 	<div class="p-10 sm:p-20" />
 	<div class="p-10" />
 
-
-	
-
-	<div class="relative h-64">
-		<div class="absolute inset-0 flex items-center justify-center">
-		  <div class="inline-flex items-center space-x-2 animate-pulse">
-			<div class="w-4 h-4 rounded-full bg-gray-400"></div>
-			<div class="w-4 h-4 rounded-full bg-gray-400"></div>
-			<div class="w-4 h-4 rounded-full bg-gray-400"></div>
-		  </div>
+	<div class="relative mx-auto h-10 w-72">
+		<div class="absolute left-0 top-0 mx-auto inset-0 -z-50 w-5 h-auto">
+			<div class="inline-flex items-center my-auto space-x-2 animate-pulse">
+				<div class="w-4 h-4 rounded-full bg-gray-400" />
+				<div class="w-4 h-4 rounded-full bg-gray-400" />
+				<div class="w-4 h-4 rounded-full bg-gray-400" />
+			</div>
 		</div>
-		<iframe class="w-full h-full" src={iframeSrc}  title="Telegram logger"/>
-	  </div>
-
-
-
-
-
-
+		<div class="absolute left-0 top-0 mx-auto w-72">
+			<Login
+				size="large"
+				username="Fishie_Honesty_bot"
+				requestAccess={true}
+				on:auth={(...args) => {
+					console.log(args);
+				}}
+			/>
+		</div>
+		<!-- <iframe class="w-full h-full" src={iframeSrc}  title="Telegram logger"/> -->
+	</div>
 
 	<footer class="container mx-auto">
 		<div class="flex justify-center items-center">
-			 <button class="btn btn-error">
+			<!-- <button class="btn btn-error">
 				<a href="">Login via Telegram</a>
 				Click here to login
 			</button>
@@ -51,10 +52,7 @@
 				username="Fishie_Honesty_bot"
 				requestAccess=true
 				size="large"
-				/>
+				/> -->
 		</div>
 	</footer>
-
-
 </section>
-
