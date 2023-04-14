@@ -5,7 +5,7 @@
 ### What is this
 the Frontend code for Fishie Honesty. a no AI and no algorithm based social media website where users can build a profile and post and socialize with others
 
-if you want to follow along with the devlog for this project check out [my youtube playlist](https://youtu.be/LLYBFS7LHvk).
+if you want to follow along with the devlog for this project check out [my youtube playlist](https://www.youtube.com/playlist?list=PLd5z2L1dLAhPikfua9_kSTgmBL-dBGdmb).
 
 ## Features
 - a dedicated page for users to be able to share all their socials (linktree clone)
