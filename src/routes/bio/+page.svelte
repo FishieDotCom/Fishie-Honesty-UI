@@ -36,7 +36,7 @@
         <input type="text" placeholder="Instagram" class="input w-full max-w-xs" />
         <input type="text" placeholder="Discord" class="input w-full max-w-xs" />
         <input type="text" placeholder="Twitter" class="input w-full max-w-xs" />
-        <input type="text" placeholder="Tik Tok" class="input w-full max-w-xs" />
+        <input type="text" placeholder="TikTok" class="input w-full max-w-xs" />
         <input type="text" placeholder="SnapChat" class="input w-full max-w-xs" />
     </div>
 </div>
