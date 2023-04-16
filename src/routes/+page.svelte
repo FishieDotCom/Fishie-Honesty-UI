@@ -22,7 +22,7 @@
 
 	<div class="relative mx-auto h-10 w-72">
 		<div class="absolute left-0 top-0 mx-auto inset-0 -z-50 w-5 h-auto">
-			<div class="inline-flex items-center my-auto space-x-2 animate-pulse">
+			<div class="inline-flex items-center space-x-2 animate-pulse">
 				<div class="w-4 h-4 rounded-full bg-gray-400" />
 				<div class="w-4 h-4 rounded-full bg-gray-400" />
 				<div class="w-4 h-4 rounded-full bg-gray-400" />
@@ -33,8 +33,16 @@
 				size="large"
 				username="Fishie_Honesty_bot"
 				requestAccess={true}
-				on:auth={(...args) => {
-					console.log(args);
+				on:auth={async (auth) => {
+					console.log(auth.detail);
+					const login = await fetch('/api/Auth/logIn', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify(auth.detail)
+					});
+					console.log(login);
 				}}
 			/>
 		</div>
