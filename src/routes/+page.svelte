@@ -8,6 +8,7 @@
 	// import IframeLoader from "svelte-iframe-loader";
 
 	// const iframeSrc = "https://telegram.org/js/telegram-widget.js?22";
+	import axios from 'axios';
 	const apiDomain = 'https://honestyapi.sar.sh';
 </script>
 
@@ -36,13 +37,14 @@
 				requestAccess={true}
 				on:auth={async (auth) => {
 					console.log(auth.detail);
-					const login = await fetch(apiDomain + '/api/Auth/logIn', {
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json'
-						},
-						body: JSON.stringify(auth.detail)
-					});
+					// const login = await fetch(apiDomain + '/api/Auth/logIn', {
+					// 	method: 'POST',
+					// 	headers: {
+					// 		'Content-Type': 'application/json'
+					// 	},
+					// 	body: JSON.stringify(auth.detail)
+					// });
+					const login = await axios.post(apiDomain + '/api/Auth/logIn', auth.detail);
 					console.log(login);
 				}}
 			/>
