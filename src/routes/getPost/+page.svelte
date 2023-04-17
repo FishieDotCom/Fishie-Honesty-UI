@@ -1,4 +1,5 @@
 <script>
+	import Navbar from '../../lib/components/navbar.svelte';
 </script>
 
 <section>
@@ -24,39 +25,37 @@
 		</div>
 	</div>
 
-    <div class="container">
-        <div class="flex items-center justify-center my-10">
-            <div class="card w-96 bg-base-100 shadow-xl">
-                <div class="card-body">
-                    <h2 class="card-title">@Username</h2>
-                    <p class="text-gray-500">lorem ipsum something</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="flex items-center justify-center my-10">
+			<div class="card w-96 bg-base-100 shadow-xl">
+				<div class="card-body">
+					<h2 class="card-title">@Username</h2>
+					<p class="text-gray-500">lorem ipsum something</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div class="mb-10">
+		<div class="flex justify-center items-center">
+			<div class="rating">
+				<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+				<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+				<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+				<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+				<input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+			</div>
+		</div>
+	</div>
 
-    <div class='mb-10'>
-        <div class="flex justify-center items-center">
-            <div class="rating">
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-              </div>
-        </div>
-    </div>
+	<div class="flex justify-center items-center">
+		<!-- i will change all buttons colours to match scheme during debugging -->
+		<button class="btn btn-secondary"> Share </button>
+	</div>
 
-
-    <div class="flex justify-center items-center">
-        <!-- i will change all buttons colours to match scheme during debugging -->
-        <button class="btn btn-secondary">
-            Share
-        </button>
-    </div>
-
-
-
-
+	<footer>
+		<div class="container mt-10">
+			<Navbar />
+		</div>
+	</footer>
 </section>
