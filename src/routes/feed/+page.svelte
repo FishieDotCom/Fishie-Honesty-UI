@@ -1,4 +1,5 @@
 <script>
+	import Navbar from '../../lib/components/navbar.svelte';
 </script>
 
 <section>
@@ -47,4 +48,11 @@
 			</div>
 		</div>
 	</div>
+
+	<footer>
+		<div class="container mt-10">
+			<Navbar />
+		</div>
+	</footer>
+
 </section>
