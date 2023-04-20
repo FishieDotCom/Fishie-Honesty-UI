@@ -7,12 +7,8 @@ export default defineConfig({
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
   	server: {
-    		port: 5173,
-		strictPort: true,
-		hmr: {
-            		clientPort: 5173,
-			port: 5173
-        	},
+    port: 5183,
+    strictPort: true
   	}
 });
 
