@@ -7,13 +7,10 @@ export default defineConfig({
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
 	},
-	server: {
-    https: true,
-    hmr: {
-        host: "honestyui.sar.sh",
-        port: 443,
-        protocol: "wss",
-    }
+  server: {
+    host: true,
+    port: 5000    
+  }
 },
 });
 
