@@ -8,7 +8,7 @@ export default defineConfig({
 	},
   	server: {
     		host: true,
-    		port: 433    
+    		port: 80    
   	}
 });
 
