@@ -6,4 +6,4 @@ COPY . .
 RUN npm install \
  && rm -rf /usr/local/share/.cache
 
-CMD npm run dev
+CMD npm run start
