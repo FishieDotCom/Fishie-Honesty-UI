@@ -44,7 +44,7 @@
 					// 	},
 					// 	body: JSON.stringify(auth.detail)
 					// });
-					const login = await axios.post(apiDomain + '/api/Auth/logIn', auth.detail);
+					const login = await axios.post('https://honestyapi.sar.sh' + '/api/Auth/logIn', auth.detail);
 					console.log(login);
 				}}
 			/>
