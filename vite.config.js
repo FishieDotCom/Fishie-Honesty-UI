@@ -10,7 +10,7 @@ export default defineConfig({
 	server: {
     hmr: {
       clientPort: 5173,
-	            host: "localhost",
+	            host: "honestyui.sar.sh",
             protocol: "ws"
     },
   },
