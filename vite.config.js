@@ -11,7 +11,8 @@ export default defineConfig({
     		port: 80,
 		strictPort: true,
 		hmr: {
-            		port: 5173,
+            		clientPort: 80,
+			port: 80
         	},
   	}
 });
