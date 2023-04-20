@@ -37,7 +37,7 @@
 				requestAccess={true}
 				on:auth={async (auth) => {
 					console.log(auth.detail);
-					// const login = await fetch(apiDomain + '/api/Auth/logIn', {
+					// const login = await fetch('https://honestyapi.sar.sh' + '/api/Auth/logIn', {
 					// 	method: 'POST',
 					// 	headers: {
 					// 		'Content-Type': 'application/json'
