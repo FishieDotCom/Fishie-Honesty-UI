@@ -11,7 +11,7 @@ export default defineConfig({
     port: 5173,
     https: true,
     hmr: {
-        host: "honestyui.sar.sh/",
+        host: "honestyui.sar.sh",
         port: 5173,
         protocol: "wss",
     }
