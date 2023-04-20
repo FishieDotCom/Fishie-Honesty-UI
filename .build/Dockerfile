@@ -4,6 +4,7 @@ WORKDIR /root
 COPY . .
 
 RUN npm install \
- && rm -rf /usr/local/share/.cache
+ && rm -rf /usr/local/share/.cache \
+ && npm run build
 
-CMD npm run start
+CMD npm run preview
