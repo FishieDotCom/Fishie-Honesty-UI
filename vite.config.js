@@ -6,7 +6,12 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+	},
+	server: {
+    hmr: {
+      clientPort: 5173,
+    },
+  },
 },
 });
 
